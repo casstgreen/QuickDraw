@@ -1,0 +1,25 @@
+Sat Dec 16 13:41:32 2017 - I'm splitting things up into different files to help us 
+    manage the different parts
+
+Sat Dec 16 13:48:36 2017 - One thing we should do is switch up the class definitions
+    a bit so that they we define the __init__() method for class constructors
+
+    This makes it so that we can have multiple gun objects for instance) that have 
+        their own values for cost, rarity, etc. instead of all guns sharing the same 
+        cost variable.
+
+    I did this for the gun class. Also, having the list of parameters with assignments
+        in the parentheses of the __init__ function (aka the constructor) gives
+        them default values, so
+             if GunClass() is called, a gun with default values is made.
+             if GunClass(20, "rare", "shotgun", 25, 20, 10, "draw", "
+
+    see: https://docs.python.org/3/tutorial/classes.html, especially starting at 
+        "9.3.5. Class and Instance Variables"
+
+
+Sat Dec 16 13:57:12 2017 - I also changed "reload" and "type" attributes in the
+    GunClass since those already stand for other things in Python
+
+
+Sat Dec 16 14:15:06 2017 - I need to read through it all more, but's awesome so far
